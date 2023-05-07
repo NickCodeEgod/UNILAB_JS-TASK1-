@@ -620,12 +620,14 @@ form{
   height: 425px;
   filter: drop-shadow(0px 0px 10px rgba(101,101,101,0.2 ));
 
+
 }
 .Popular-Tourism-Country-Card2{
   background-image: url(../images/card-images/Popular-Tourism-Countries-card-images/Italy.png);
   width: 271px;
   height: 425px;
   filter: drop-shadow(0px 0px 10px rgba(101,101,101,0.2 ));
+  
 
 }
 .Popular-Tourism-Country-Card3{
@@ -633,6 +635,7 @@ form{
   width: 271px;
   height: 425px;
   filter: drop-shadow(0px 0px 10px rgba(101,101,101,0.2 ));
+  
 
 }
 .Popular-Tourism-Country-Card4{
@@ -641,7 +644,9 @@ form{
   height: 425px;
   filter: drop-shadow(0px 0px 10px rgba(101,101,101,0.2 ));
 
+
 }
+
 .Popular-Tourism-Country-Cards{
   display: flex;
   justify-content: center;
@@ -775,6 +780,25 @@ footer{
   padding-top: 22px;
   font-family: 'Raleway', sans-serif;
 
+}
+.API-title{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.title-and-dogs{
+  display: flex;
+  flex-direction: column;
+}
+.title-and-dogs-wrapper{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+#imgDog{
+  width: 500px;
+  height: 500px;
 }
 
 @media (max-width: 1200px){
@@ -946,6 +970,13 @@ footer{
       font-size: 16px;
     }
     
+    .API-title{
+      font-size: 30px;
+    }
+    #imgDog{
+      width: 300px;
+      height: 300px;
+    }
    
 
   }
